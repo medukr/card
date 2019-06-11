@@ -32,16 +32,6 @@ const routes = [
 
 
     // {
-    //     name: 'play',
-    //     path: '/play/:id',
-    //     component: AppPlay
-    // },
-    // {
-    //     name: 'home',
-    //     path: '',
-    //     component: AppList
-    // },
-    // {
     //     name: 'listFromCategory',
     //     path: '/category/:slug',
     //     component: AppListFromCategory,

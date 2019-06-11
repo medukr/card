@@ -1,6 +1,6 @@
 <template>
     <div>
-    <div class="text-center">
+    <div class="text-center ">
         <h3>About</h3>
     </div>
     <div class="card">

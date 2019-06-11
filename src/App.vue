@@ -2,25 +2,20 @@
   <div id="app">
     <c-navbar></c-navbar>
 
+      <div class="container container-fluid">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mt-3 border-bottom border-dark">
 
-    <div class="container container-fluid">
-      <div class="row">
+                  <c-profile></c-profile>
 
-        <c-profile></c-profile>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12 pt-3">
 
+                  <router-view></router-view>
 
-
-        <div class="col-lg-8 col-md-6 col-sm-12 pt-3">
-
-
-
-          <router-view></router-view>
-
-
-
-        </div>
+              </div>
+          </div>
       </div>
-    </div>
   </div>
 </template>
 
@@ -40,7 +35,12 @@ export default {
     return {
 
     }
-  }
+  },
+    computed: {
+      test(){
+          return this.$store.getters['test'];
+      }
+    }
 }
 </script>
 

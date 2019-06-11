@@ -3,11 +3,13 @@ import App from './App.vue'
 
 
 import {router} from './router'
+import {store} from "./store/"
 
 import 'bootstrap/dist/js/bootstrap'
 
 new Vue({
   el: '#app',
   render: h => h(App),
-  router
-})
+  router,
+  store
+});
