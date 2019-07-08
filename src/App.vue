@@ -2,7 +2,7 @@
   <div id="app">
     <c-navbar></c-navbar>
 
-      <div class="container container-fluid">
+      <div class="container container-fluid pt-5">
           <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12 mt-3 border-bottom border-dark">
 

@@ -6,7 +6,7 @@
 
         <div :id="collapseId" :class="['collapse', isShowClass]" :aria-labelledby="headingId" data-parent="#accordion">
             <div class="card-header">
-                <p class="card-text">{{element.description}}</p>
+                <p class="card-text" :id="'description'+id">Здесь должно быть описание, но что-то пошло не так...</p>
                 <a class="nav-link__project m-0" :href="element.git.repo" target="_blank"><i class="fab fa-github"></i></a>
                 <a class="nav-link__project m-0" :href="element.site.url" target="_blank"><i class="fab fa-internet-explorer"></i></a>
             </div>
@@ -58,8 +58,7 @@
 
             </div>
             <div class="card-footer">
-                <p class="card-text" :id="'tools'+id">Tools...
-                </p>
+                <p class="card-text" :id="'tools'+id">Здесь должен быть список используемых инструментов, но что-то пошло не так..., или руки-крюки</p>
             </div>
         </div>
     </div>
@@ -101,7 +100,8 @@
             }
         },
         mounted() {
-            this.$el.querySelector('#tools' + this.id).innerHTML = this.element.tools
+            this.$el.querySelector('#tools' + this.id).innerHTML = this.element.tools;
+            this.$el.querySelector('#description' + this.id).innerHTML = this.element.description;
         }
     }
 </script>

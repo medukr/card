@@ -17,7 +17,13 @@ export const store = new Vuex.Store({
             site: {
                 url: 'http://sparrow.in.ua'
             },
-            description: 'Приложение для...',
+            description: "<p>Это онлайн сервис для тех, кто занимается бодибилдингом, пауэрлифтингом, фитнесом, а также другими силовыми и аэробными видами спорта.</p>\n" +
+                "<p>Вы получите много полезных возможностей. Ваши записи тренировок больше никогда не потеряются, а дневник будет доступен в любом месте и в любое время!</p>\n" +
+                "<p>У вас в руках появится мощный инструмент, который содержит в себе <b>журнал тренировок</b>, <b>программы тренировок</b>, большой <b>каталог упражнений</b>, <b>замеры</b>, <b>статистику</b></p>\n" +
+                "<p>Благодаря статистике, можно контролировать любые отклонения в вашем прогрессе, вовремя корректировать программу тренировок и двигаться точно к цели!</p>\n" +
+                "<p> А функционал замеров поможет следить за внешними изменениями и оценить эффективность тренировочного процесса</p>",
+
+
             tools: 'Tools: php, js, css, mysql, yii2, bootstrap, jquery, custom <a href=\"https://designrevision.com/\">Designrevision</a> template, <a href=\"https://www.chartjs.org/\">Chart.js</a>'
         },
         radio: {
@@ -32,8 +38,9 @@ export const store = new Vuex.Store({
             site: {
                 url: 'http://radio.sparrow.in.ua'
             },
-            description: 'Приложение для...',
-            tools: 'Tools: VueJS, bootstrap, custom <a href=\"https://designrevision.com/\">Designrevision</a> template'
+            description: '<p></p>Несколько <del>тысяч</del> радиостанций в удобном месте с любого устройсва! Фильтры по жанрам, удобный поиск.</p>',
+            tools: '<p>Tools: VueJS, bootstrap, custom <a href="https://designrevision.com" target="_blank">Designrevision</a> template, API <a\n' +
+                '        href="http://dirble.com" target="_blank"><del>Dirble.com</del></a>, <a href="http://get.sparrow.com.ua" target="_blank">intermediary API by myself</a>.</p>'
         },
         radio_api: {
             title: 'Online radio API service',
@@ -66,6 +73,40 @@ export const store = new Vuex.Store({
                 description: 'Приложение для...',
                 tools: 'Использовалось...'
             }
+        },
+        contacts: {
+            adress: {
+                title: 'Adress',
+                city : 'Kyiv',
+                country: 'Ukraine'
+            },
+            email: {
+                title: 'E-mail',
+                name: 'andrii.demydiuk@gmail.com',
+                link: 'mailto:andrii.demydiuk@gmail.com'
+            },
+            phone: {
+                title: 'Cell',
+                name: '+380(93)911-78-57',
+                link: 'tel:+3800939117857'
+            },
+            skype: {
+                title: 'Skype',
+                name: 'andrii.demydiuk',
+                link: 'skype:andrii.demydiuk?userinfo'
+            },
+            telegram: {
+                title: 'Telegram',
+                name: '@nicotinamide',
+                link: 'https://t.me/nicotinamide'
+            },
+            github: {
+                title: '',
+                name: '',
+                link: '',
+            }
+
+
         }
     },
     getters: {
@@ -80,6 +121,9 @@ export const store = new Vuex.Store({
         },
         other(state) {
             return state.other
+        },
+        contacts(state){
+            return state.contacts;
         }
 
     }
