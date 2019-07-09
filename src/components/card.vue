@@ -5,12 +5,12 @@
         </div>
 
         <div :id="collapseId" :class="['collapse', isShowClass]" :aria-labelledby="headingId" data-parent="#accordion">
-            <div class="card-header">
+            <div class="card-body">
                 <p class="card-text" :id="'description'+id">Здесь должно быть описание, но что-то пошло не так...</p>
                 <a class="nav-link__project m-0" :href="element.git.repo" target="_blank"><i class="fab fa-github"></i></a>
                 <a class="nav-link__project m-0" :href="element.site.url" target="_blank"><i class="fab fa-internet-explorer"></i></a>
             </div>
-            <div class="card-body">
+            <div class="card-body p-0">
 
 
                 <!--Carousel Begin-->
@@ -43,11 +43,11 @@
 
                     <!--Carousel Controls Begin-->
                     <a class="carousel-control-prev" :href="'#' + carouselIndicatorsId" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-span" aria-hidden="true"><i class="fa fa-arrow-left"></i></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" :href="'#' + carouselIndicatorsId" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span class="carousel-control-next-span" aria-hidden="true"><i class="fa fa-arrow-right"></i></span>
                         <span class="sr-only">Next</span>
                     </a>
                     <!--Carousel Controls End-->

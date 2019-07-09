@@ -11,3 +11,5 @@ assets/images
 *.ntvs*
 *.njsproj
 *.sln
+
+text.html

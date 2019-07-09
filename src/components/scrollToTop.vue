@@ -69,7 +69,8 @@
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         box-sizing: border-box;
         font-size: 1.5rem;
-        transition: background-color 0.15s, opacity 0.3s cubic-bezier(.25,.8,.25,1), right .5s cubic-bezier(.23,.1,0,.99);
+        transition: background-color 0.15s, opacity 0.3s cubic-bezier(.25,.8,.25,1), right .5s cubic-bezier(.35,.35,.15,1);
+        -webkit-transition: background-color 0.15s, opacity 0.3s cubic-bezier(.25,.8,.25,1), right .5s cubic-bezier(.35,.35,.15,1);
 
     }
 

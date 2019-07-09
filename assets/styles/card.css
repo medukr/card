@@ -87,6 +87,25 @@ body {
 /*Card END*/
 
 
+/*Carousel Begin*/
+.carousel-control-prev-span, .carousel-control-next-span {
+    /*width: 4rem;*/
+    /*height: 4rem;*/
+    /*border-radius: 2rem;*/
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+    color: black;
+    /*background: #000;*/
+
+}
+.carousel-control-prev-span i, .carousel-control-next-span i{
+    font-size: 2rem;
+}
+/*Carousel END*/
+
+
+
 .footer {
     /*position: absolute;*/
     /*width: 100%;*/

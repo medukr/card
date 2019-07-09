@@ -36,12 +36,6 @@
             CFooter,
             CScrollToTop
         },
-        data() {
-            return {}
-        },
-        computed: {
-
-        },
         methods: {
             dynamicContentMinHeight(){
                 this.setContentMinHeight();
