@@ -20,6 +20,13 @@
         >
         </c-card>
 
+
+        <c-card
+                id="Radio_api"
+                :element="radio_api"
+        >
+        </c-card>
+
         <!--Card Begin-->
 <!--        <div class="card">-->
 <!--            <div class="card-header" id="heading3">-->
