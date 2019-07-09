@@ -68,10 +68,5 @@
 </script>
 
 <style scoped>
-.navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
-}
+
 </style>

@@ -13,6 +13,10 @@ body {
 /*Nav Begin*/
 .navbar {
     background:#449c73;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
 }
 
 .nav-link, .navbar-brand {
@@ -76,5 +80,16 @@ body {
 .card-text {
     color:#092a3a;
 }
-/*Crd END*/
+/*Card END*/
 
+
+.footer {
+    background: #449c73;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 -1px 1px rgba(0,0,0,0.24);
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.footer-body {
+    box-sizing: border-box;
+}

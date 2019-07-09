@@ -40,7 +40,7 @@ export const store = new Vuex.Store({
             },
             description: '<p></p>Несколько <del>тысяч</del> радиостанций в удобном месте с любого устройсва! Фильтры по жанрам, удобный поиск.</p>',
             tools: '<p>Tools: VueJS, bootstrap, custom <a href="https://designrevision.com" target="_blank">Designrevision</a> template, API <a\n' +
-                '        href="http://dirble.com" target="_blank"><del>Dirble.com</del></a>, <a href="http://get.sparrow.com.ua" target="_blank">intermediary API by myself</a>.</p>'
+                '        href="http://dirble.com" target="_blank"><del>Dirble.com</del></a>, <a href="http://get.sparrow.in.ua" target="_blank">intermediary API by myself</a>.</p>'
         },
         radio_api: {
             title: 'Online radio API service',
