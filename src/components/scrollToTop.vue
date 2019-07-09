@@ -9,7 +9,7 @@
         name: "scrollToTop",
         data(){
             return {
-                heightToShow: 200, //px
+                heightToShow: 300, //px
                 scrollTo: 0, //px
                 scrollTime: 100, //ms
                 scrollStep: 20, //px
@@ -38,7 +38,9 @@
             document.addEventListener('scroll', () => {
                 if (document.body.scrollTop > this.heightToShow || document.documentElement.scrollTop > this.heightToShow) {
                    this.$el.style.opacity = 1;
+                   this.$el.style.right = '1rem';
                 } else {
+                    this.$el.style.right = '-5rem';
                     this.$el.style.opacity = 0;
                 }
             });
@@ -67,7 +69,7 @@
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         box-sizing: border-box;
         font-size: 1.5rem;
-        transition: background-color, opacity 0.3s cubic-bezier(.25,.8,.25,1);
+        transition: background-color 0.15s, opacity 0.3s cubic-bezier(.25,.8,.25,1), right .5s cubic-bezier(.23,.1,0,.99);
 
     }
 
