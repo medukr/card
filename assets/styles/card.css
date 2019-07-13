@@ -51,6 +51,30 @@ body {
 /*Nav END*/
 
 
+.profile {
+
+}
+
+.profile_head_image_main {
+    background-image: url("../images/wp2003009.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+
+.profile_head_image_main::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: #092a3a;
+    opacity: 0.5;
+}
+
+
 /*Card Begin*/
 .card {
     border: 0;

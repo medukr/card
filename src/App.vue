@@ -1,18 +1,13 @@
 <template>
     <div id="app">
         <c-navbar></c-navbar>
-
-        <div id="container" class="container container-fluid mt-5 mb-2">
+        <div id="container" class="container-fluid mt-5 mb-2">
+            <c-profile></c-profile>
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 mt-3 border-bottom border-dark">
-
-                    <c-profile></c-profile>
-
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 pt-3">
-
-                    <router-view></router-view>
-
+                <div class="col pt-3">
+                    <div class="container">
+                        <router-view></router-view>
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,14 +32,14 @@
             CScrollToTop
         },
         methods: {
-            dynamicContentMinHeight(){
+            dynamicContentMinHeight() {
                 this.setContentMinHeight();
                 window.addEventListener('resize', () => {
                     this.setContentMinHeight()
                 })
             },
-            setContentMinHeight(){
-                this.$el.querySelector('div#container').style.minHeight = (window.innerHeight - this.$el.querySelector('div.footer').scrollHeight -  this.$el.querySelector('nav.navbar').scrollHeight) + 'px';
+            setContentMinHeight() {
+                this.$el.querySelector('div#container').style.minHeight = (window.innerHeight - this.$el.querySelector('div.footer').scrollHeight - this.$el.querySelector('nav.navbar').scrollHeight) + 'px';
             }
         },
         mounted() {
