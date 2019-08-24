@@ -11,10 +11,57 @@
         </div>
 
         <div class="card-body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae, delectus esse excepturi ipsum iusto minima molestias! Cupiditate deleniti distinctio laudantium magni modi mollitia officia omnis qui quisquam quod! Praesentium.</p>
+          <h3  class="font-weight-bold">Andrii Demydiuk</h3>
+          <hr>
+
+          <h4 class="font-weight-bold">Junior back-end (php) developer</h4>
+          <p>27 years, Kyiv</p>
+          <hr>
+
+          <h4 class="font-weight-bold">Освіта:</h4>
+          <h5>National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h5>
+          <p>Mechanical engineer, Department of Machines and Apparatus of Chemical and Oil Refinery Productions (MAHNV), Faculty of Chemical Engineering, Kyiv
+            Вища, з 09.2009 по 02.2015 (5 років 5 місяців)</p>
+
+          <h4 class="font-weight-bold">Professional skills</h4>
+          <ul>
+            <li>Understanding and applying the principles of OOP;</li>
+            <li>Knowledge of PHP frameworks Yii2, Laravel;</li>
+            <li>Knowledge of MySQL, SQLite3, PDO, ActiveRecord, phpMyAdmin;</li>
+            <li>Knowledge of HTML5/CSS3;</li>
+            <li>Knowledge of PHP5+, PHP7+;</li>
+            <li>Knowledge of JavaScript, AJAX, JQuery, VueJS;</li>
+            <li>Understanding cross-browser and responsive layout, JavaScript/CSS animation;</li>
+            <li>Understanding REST API, Big O, Software development lifecycle;</li>
+            <li>Experience Composer, NPM, Git, Ubuntu;</li>
+          </ul>
+
+          <p>Other: Install and configure Apache web-server, MS Office, MatchCad, AutoCAD, Autodesk Inventor, SolidWorks, KOMPAS 3D, Aspen HYSYS</p>
+
+          <p>GItHub profile - https://github.com/medukr</p>
+
+          <p>My website - http://card.sparrow.in.ua</p>
+
+          <h4 class="font-weight-bold">Lang:</h4>
+            <ul>
+              <li>English - pre-intermediate</li>
+              <li>Ukrainian - native</li>
+              <li>Russian - native</li>
+            </ul>
+
+          <h4 class="font-weight-bold">More info:</h4>
+          <ul>
+            <li>Focused on the result</li>
+            <li>Proven organizational, analytical, and communication skills (verbal and written)</li>
+            <li>Bility to learn new technologies and challenging concepts quickly and implement them</li>
+            <li>Problem solving, customer issues satisfaction. Motivated to develop yourself and solve complex tasks</li>
+            <li>5 years of gas processing design experience</li>
+          </ul>
         </div>
-        
-        <div class="card-footer"></div>
+
+        <div class="card-footer">
+          <a href="/assets/documents/Резюме%20—%20Junior%20back-end%20(php)%20developer,%20Andrii%20Demydiuk.docx" class="btn btn-success">Download resume</a>
+        </div>
     </div>
     </div>
 </template>

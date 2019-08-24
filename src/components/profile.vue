@@ -15,7 +15,7 @@
                             <i class="fab fa-php"></i>
                             <i class="fab fa-js"></i>
                         </h3>
-                        <p class="card-text text-white"><b>Back-end, PHP, JavaScript, CSS, Yii2, VueJS developer</b> and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dignissimos eligendi impedit inventore ipsa laudantium nam necessitatibus provident reprehenderit saepe! </p>
+                        <p class="card-text text-white"><b>Back-end, PHP, JavaScript, CSS, Yii2, VueJS developer</b> and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, id. </p>
                     </div>
                 </div>
             </div>

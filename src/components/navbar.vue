@@ -12,11 +12,6 @@
                 class="nav-item nav-link"
                 active-class="active">Resume</router-link>
                 <router-link
-                        :to="{name:'about'}"
-                        tag="a"
-                        class="nav-item nav-link"
-                        active-class="active">About</router-link>
-                <router-link
                         :to="{name:'contacts'}"
                         tag="a"
                         class="nav-item nav-link"

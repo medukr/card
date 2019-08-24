@@ -24,11 +24,11 @@ const routes = [
         path: '/contacts',
         component: CContacts
     },
-    {
-        name: 'about',
-        path: '/about',
-        component: CAbout
-    },
+    // {
+    //     name: 'about',
+    //     path: '/about',
+    //     component: CAbout
+    // },
 
 
     // {
