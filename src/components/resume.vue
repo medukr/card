@@ -60,7 +60,7 @@
         </div>
 
         <div class="card-footer">
-          <a href="/assets/documents/Резюме%20—%20Junior%20back-end%20(php)%20developer,%20Andrii%20Demydiuk.docx" class="btn btn-success">Download resume</a>
+          <a href="/assets/documents/Резюме — Junior back-end (php) developer, Andrii Demydiuk.docx" class="btn btn-success btn-pill">Download resume</a>
         </div>
     </div>
     </div>

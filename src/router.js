@@ -7,6 +7,7 @@ import CResume from './components/resume';
 import CContacts from './components/contacts';
 import CAbout from './components/about';
 import CAccordion from './components/acccordion';
+import CError404 from './components/error404'
 
 const routes = [
     {
@@ -24,6 +25,12 @@ const routes = [
         path: '/contacts',
         component: CContacts
     },
+    {
+        name: 'error',
+        path: '*',
+        component: CError404
+    }
+
     // {
     //     name: 'about',
     //     path: '/about',

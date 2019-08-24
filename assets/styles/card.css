@@ -31,6 +31,7 @@ body {
 .nav-link__project {
     color: #5f7f9e;
     transition: 0.15s;
+  font-size: 32px;
 }
 
 .nav-link__project:hover {
@@ -142,4 +143,60 @@ body {
 
 .footer-body {
     box-sizing: border-box;
+}
+
+
+/*Error styles*/
+
+.error {
+  height: calc(80vh - 3.75rem);
+  display: flex;
+}
+
+
+.error__content {
+  padding: 0 0.9375rem;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.error__content h2{
+  color: #b74351;
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin-bottom: 1.5625rem;
+}
+
+.error__content h3 {
+  font-weight: 500;
+  font-size: 2.1875rem;
+  margin-bottom: 0.625rem;
+}
+
+.error__content p {
+  color: #667081;
+}
+
+
+/* Button */
+
+.btn.btn-pill {
+  border-radius: 50px;
+}
+
+.btn-accent {
+  color: #fff;
+  border-color: #007bff;
+  background-color: #007bff;
+  box-shadow: none;
+}
+
+.btn-error {
+  color: #fff;
+  border-color:  #b74351;
+  background-color:  #b74351;
+  box-shadow: none;
 }

@@ -24,7 +24,7 @@ export const store = new Vuex.Store({
                 "<p> А функционал замеров поможет следить за внешними изменениями и оценить эффективность тренировочного процесса</p>",
 
 
-            tools: 'Tools: php, js, css, mysql, yii2, bootstrap, jquery, custom <a href=\"https://designrevision.com/\">Designrevision</a> template, <a href=\"https://www.chartjs.org/\">Chart.js</a>'
+            tools: 'Tools: Yii2 Framework, MySQL, Bootstrap, JQuery, custom <a href=\"https://designrevision.com/\">Designrevision</a> template, <a href=\"https://www.chartjs.org/\">Chart.js</a>'
         },
         radio: {
             title: 'Online radio listener',
@@ -39,7 +39,7 @@ export const store = new Vuex.Store({
                 url: 'http://radio.sparrow.in.ua'
             },
             description: '<p></p>Несколько <del>тысяч</del> радиостанций в удобном месте с любого устройсва! Фильтры по жанрам, удобный поиск.</p>',
-            tools: '<p>Tools: VueJS, bootstrap, custom <a href="https://designrevision.com" target="_blank">Designrevision</a> template, API <a\n' +
+            tools: '<p>Tools: VueJS, Bootstrap, custom <a href="https://designrevision.com" target="_blank">Designrevision</a> template, API <a\n' +
                 '        href="http://dirble.com" target="_blank"><del>Dirble.com</del></a>, <a href="http://get.sparrow.in.ua" target="_blank">intermediary API by myself</a>.</p>'
         },
         radio_api: {
@@ -55,7 +55,7 @@ export const store = new Vuex.Store({
                 url: 'http://get.sparrow.in.ua'
             },
             description: '<p>При разработке <a href="http://radio.sparrow.in.ua" target="_blank">онлайн радио</a>, планировалась простая "заглушка" на локальном сервере, которая возвращала бы закешированные данные из<a href="http://dirble.com" target="_blank">API</a>. Это было обусловленно ограничением количества запросов в месяц бесплатного аккаутна.</p><p>Спустя некоторое время, API вовсе престало отвечать на запросы, заглушка переросла в отдельный проект.</p><p>Оно все еще возвращает кеш :)</p>',
-            tools: 'Tools: native php, patterns: MVC, Singleton, >>Фасад?<<'
+            tools: 'Tools: native PHP, Composer, patterns: MVC, Singleton, Intermediary'
         },
         other: {
             0: {

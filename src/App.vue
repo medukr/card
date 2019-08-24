@@ -2,7 +2,7 @@
     <div id="app">
         <c-navbar></c-navbar>
         <div id="container" class="container-fluid mt-5 mb-2">
-            <c-profile></c-profile>
+            <c-profile v-if="$route.name !== 'error'"></c-profile>
             <div class="row">
                 <div class="col pt-3">
                     <div class="container">
@@ -44,7 +44,7 @@
         },
         mounted() {
             this.dynamicContentMinHeight();
-        }
+        },
     }
 </script>
 
