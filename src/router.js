@@ -5,7 +5,6 @@ Vue.use(VueRouter);
 
 import CResume from './components/resume';
 import CContacts from './components/contacts';
-import CAbout from './components/about';
 import CAccordion from './components/acccordion';
 import CError404 from './components/error404'
 
@@ -30,13 +29,6 @@ const routes = [
         path: '*',
         component: CError404
     }
-
-    // {
-    //     name: 'about',
-    //     path: '/about',
-    //     component: CAbout
-    // },
-
 
     // {
     //     name: 'listFromCategory',
@@ -75,11 +67,6 @@ const routes = [
     //     name: 'products',
     //     path: '/products/:id',
     //     component: Product
-    // },
-
-    // {
-    //     path: '/checkout',
-    //     component: Checkout
     // },
 
 ];
