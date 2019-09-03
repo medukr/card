@@ -26,12 +26,12 @@
           <h4 class="font-weight-bold">Professional skills:</h4>
           <ul>
             <li>Understanding and applying the principles of OOP;</li>
-            <li>Knowledge of PHP frameworks Yii2, Laravel (basic);</li>
+            <li>Experience of PHP frameworks Yii2, Laravel (basic);</li>
             <li>Experience of MySQL, SQLite3, PDO, ActiveRecord, phpMyAdmin;</li>
             <li>Knowledge of HTML5/CSS3;</li>
             <li>Knowledge of PHP5+, PHP7+, JavaScript, SQL;</li>
             <li>Experience of AJAX, JQuery, VueJS;</li>
-            <li>Understanding cross-browser and responsive layout, JavaScript/CSS animation;</li>
+            <li>Understanding responsive layout, JavaScript/CSS animation;</li>
             <li>Understanding REST API, Big O, Software development lifecycle;</li>
             <li>Experience Composer, NPM, Git, Ubuntu;</li>
           </ul>

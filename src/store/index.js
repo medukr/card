@@ -55,7 +55,7 @@ export const store = new Vuex.Store({
             site: {
                 url: 'http://get.sparrow.in.ua'
             },
-            description: '<p>При разработке <a href="http://radio.sparrow.in.ua" target="_blank">онлайн радио</a>, планировалась простая "заглушка" на локальном сервере, которая возвращала бы закешированные данные из<a href="http://dirble.com" target="_blank">API</a>. Это было обусловленно ограничением количества запросов в месяц бесплатного аккаутна.</p><p>Спустя некоторое время, API вовсе престало отвечать на запросы, заглушка переросла в отдельный проект.</p><p>Оно все еще возвращает кеш :)</p>',
+            description: '<p>При разработке <a href="http://radio.sparrow.in.ua" target="_blank">онлайн радио</a>, планировалася прокси сервер, который возвращал бы закешированные данные из <a href="http://dirble.com" target="_blank">API</a>.</p><p>Спустя некоторое время, API вовсе прекратило свое существование</p><p>Так что оно все еще возвращает кеш :)</p>',
             tools: 'Tools: native PHP, Composer, patterns: MVC, Singleton, Intermediary'
         },
         other: {
