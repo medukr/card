@@ -77,7 +77,7 @@ export const store = new Vuex.Store({
         },
         contacts: {
             adress: {
-                title: 'Adress',
+                title: 'Address',
                 city : 'Kyiv',
                 country: 'Ukraine'
             },

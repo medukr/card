@@ -26,7 +26,7 @@
           <h4 class="font-weight-bold">Professional skills:</h4>
           <ul>
             <li>Understanding and applying the principles of OOP;</li>
-            <li>Experience of PHP frameworks Yii2, Laravel (basic);</li>
+            <li>Experience of PHP framework Yii2;</li>
             <li>Experience of MySQL, SQLite3, PDO, ActiveRecord, phpMyAdmin;</li>
             <li>Knowledge of HTML5/CSS3;</li>
             <li>Knowledge of PHP5+, PHP7+, JavaScript, SQL;</li>
@@ -60,7 +60,16 @@
         </div>
 
         <div class="card-footer">
-          <a href="/assets/documents/Резюме — Junior back-end (php) developer, Andrii Demydiuk.rtf" class="btn btn-success btn-pill">Download resume</a>
+<!--          <a href="/assets/documents/Резюме — Junior back-end (php) developer, Andrii Demydiuk.rtf" class="btn btn-success btn-pill">Download resume</a>-->
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-success btn-pill dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Download resume
+            </button>
+            <div class="dropdown-menu">
+              <a href="/assets/documents/Resume — Junior back-end (php) developer, Andrii Demydiuk.rtf" class="dropdown-item">EN</a>
+              <a href="/assets/documents/Резюме — Junior back-end (php) developer, Андрей Демидюк.rtf" class="dropdown-item">РУС</a>
+            </div>
+          </div>
         </div>
     </div>
     </div>
