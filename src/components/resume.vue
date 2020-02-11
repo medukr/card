@@ -14,20 +14,30 @@
           <h3  class="font-weight-bold">Andrii Demydiuk</h3>
           <hr>
 
-          <h4 class="font-weight-bold">Junior back-end (php) developer</h4>
+          <h4 class="font-weight-bold">PHP developer</h4>
           <p>27 years, Kyiv</p>
           <hr>
+
+          <h4 class="font-weight-bold">Work Experience:</h4>
+          <h5>Full Stack Web Developer</h5>
+          <p>Tocan Solution <small class="text text-secondary">October 2019 — till present time</small></p>
+          <ul>
+            <li>Implementation of new product functionality  according to customer/internal requirements in a short time;</li>
+            <li>Development of a new module for the product system;</li>
+            <li>Refactoring, optimization of the finished code;</li>
+            <li>Layout on the materials provided by the designer;</li>
+          </ul>
 
           <h4 class="font-weight-bold">Education:</h4>
           <h5>National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute"</h5>
           <p>Mechanical engineer, Department of Machines and Apparatus of Chemical and Oil Refinery Productions (MAHNV), Faculty of Chemical Engineering, Kyiv
-            Вища, з 09.2009 по 02.2015 (5 років 5 місяців)</p>
+            <small class="text text-secondary">09.2009 - 02.2015 (5 years 5 months)</small></p>
 
           <h4 class="font-weight-bold">Professional skills:</h4>
           <ul>
             <li>Understanding and applying the principles of OOP;</li>
             <li>Experience of PHP framework Yii2;</li>
-            <li>Experience of MySQL, SQLite3, PDO, ActiveRecord, phpMyAdmin;</li>
+            <li>Experience of MySQL, SQLite3, PDO;</li>
             <li>Knowledge of HTML5/CSS3;</li>
             <li>Knowledge of PHP5+, PHP7+, JavaScript, SQL;</li>
             <li>Experience of AJAX, JQuery, VueJS;</li>
@@ -40,7 +50,7 @@
 
           <p>GItHub profile - <a href="https://github.com/medukr" target="_blank">https://github.com/medukr</a></p>
 
-          <p>My website - http://card.sparrow.in.ua</p>
+          <p>My website - <a href="http://card.sparrow.in.ua/resume" title="recursion">http://card.sparrow.in.ua</a></p>
 
           <h4 class="font-weight-bold">Language proficiencies:</h4>
             <ul>
@@ -60,7 +70,6 @@
         </div>
 
         <div class="card-footer">
-<!--          <a href="/assets/documents/Резюме — Junior back-end (php) developer, Andrii Demydiuk.rtf" class="btn btn-success btn-pill">Download resume</a>-->
           <div class="btn-group dropup">
             <button type="button" class="btn btn-success btn-pill dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Download resume
