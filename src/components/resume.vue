@@ -75,8 +75,8 @@
               Download resume
             </button>
             <div class="dropdown-menu">
-              <a href="/assets/documents/Resume — Junior back-end (php) developer, Andrii Demydiuk.rtf" class="dropdown-item">EN</a>
-              <a href="/assets/documents/Резюме — Junior back-end (php) developer, Андрей Демидюк.rtf" class="dropdown-item">РУС</a>
+              <a href="/assets/documents/Resume — PHP back-end developer, Andrii Demydiuk.rtf" class="dropdown-item">EN</a>
+              <a href="/assets/documents/Резюме — PHP back-end developer, Андрей Демидюк.rtf" class="dropdown-item">РУС</a>
             </div>
           </div>
         </div>
